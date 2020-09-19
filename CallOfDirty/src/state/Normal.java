@@ -1,5 +1,8 @@
 package state;
 
-public class Normal {
-    
+public class Normal implements Estado{
+    @Override
+    public void andar() {
+        System.out.println("Caminho normal");
+    } 
 }
