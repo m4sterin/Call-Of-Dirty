@@ -1,5 +1,7 @@
 package factory;
+
 import strategy.*;
+
 public class ModoTiroFactory {
      public ModoAtirar criarModoTiro(String arma){
         if(arma.equalsIgnoreCase("m4a1")){

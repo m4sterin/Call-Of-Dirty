@@ -1,6 +1,6 @@
 package state;
 
-public class Dano implements Estado {
+public class Lento implements Estado {
     @Override
     public void andar() {
         System.out.println("Caminhando devagar");
